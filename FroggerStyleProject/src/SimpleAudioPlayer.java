@@ -44,7 +44,7 @@ public class SimpleAudioPlayer   {
 	        clip.open(audioInputStream); 
 	          
 	        if(loop) {
-	        	clip.loop(Clip.LOOP_CONTINUOUSLY); 
+	        	clip.loop(0); 
 	        }
 		} catch (Exception e) {
 			System.out.println(e);
